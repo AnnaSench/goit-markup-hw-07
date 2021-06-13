@@ -14,8 +14,9 @@
 </head>
 <body>
      <!-- Шапка -->
-  <header>
-    <nav class="navigation container">
+  <header> 
+    <div class="navigation container">
+    <nav class="nav">
       <a href="./index.html" class="logo"><span class="logob">Web</span>Studio</a>
 
       <ul class="site-nav">
@@ -23,7 +24,7 @@
         <li class="item"><a href="./portfolio.html" class="link menu-link">Портфолио</a></li>
         <li class="item"><a href="" class="link menu-link">Контакты</a></li>
       </ul>
-
+    </nav>
       <ul class="site-info">
         <li class="item"><a href="mailto:info@devstudio.com" class="link link-contacts">
           <svg class="icon" width="16px" height="12px">
@@ -36,7 +37,8 @@
           </svg>
           +38 096 111 11 11</a></li>
       </ul>
-    </nav>
+    
+  </div>
   </header>
 
   <!-- Основа -->
@@ -93,13 +95,13 @@
         <h2>Чем мы занимаемся</h2>
         <ul class="employment-list">
           <li class="item"><a href=""><img src="./images/img1..jpg" alt="Десктопные приложения"></a>
-          <p class="label">Десктопные приложения</p>
+          <div class="items"><p class="label">Десктопные приложения</p></div>
           </li>
           <li class="item"><a href=""><img src="./images/img2..jpg" alt="Мобильные приложения"></a>
-          <p class="label">Мобильные приложения</p>
+          <div class="items"><p class="label">Мобильные приложения</p></div>
           </li>
           <li class="item"><a href=""><img src="./images/img3..jpg" alt="Дизайнерские решения"></a>
-          <p class="label">Дизайнерские решения</p>
+          <div class="items"><p class="label">Дизайнерские решения</p></div>
           </li>
         </ul>
       </div>
@@ -113,7 +115,7 @@
         <ul class="team-list">
           <li class="item">
             <img src="./images/photo1.jpg" alt="Игорь Демьяненко" width="270">
-            <h3>Игорь Демьяненко</h3>
+            <div class="item-box"><h3>Игорь Демьяненко</h3>
             <p>Product Designer</p>
             <ul class="list social-icons">
               <li class="social-icons-item"> 
@@ -145,12 +147,12 @@
                 </a>
               </li>
             </ul>
-
+          </div>
 
           </li>
           <li class="item">
             <img src="./images/photo2.jpg" alt="Ольга Репина" width="270">
-            <h3>Ольга Репина</h3>
+            <div class="item-box"><h3>Ольга Репина</h3>
             <p>Frontend Developer</p>
             <ul class="list social-icons">
               <li class="social-icons-item"> 
@@ -182,10 +184,11 @@
                 </a>
               </li>
             </ul>
+          </div>
           </li>
           <li class="item">
             <img src="./images/photo3.jpg" alt="Николай Тарасов" width="270">
-            <h3>Николай Тарасов</h3>
+            <div class="item-box"><h3>Николай Тарасов</h3>
             <p>Marketing</p>
             <ul class="list social-icons">
               <li class="social-icons-item"> 
@@ -217,10 +220,11 @@
                 </a>
               </li>
             </ul>
+          </div>
           </li>
           <li class="item">
             <img src="./images/photo4.jpg" alt="Михаил Ермаков" width="270">
-            <h3>Михаил Ермаков</h3>
+            <div class="item-box"><h3>Михаил Ермаков</h3>
             <p>UI Designer</p>
             <ul class="list social-icons">
               <li class="social-icons-item"> 
@@ -252,6 +256,7 @@
                 </a>
               </li>
             </ul>
+          </div>
           </li>
         </ul>
       </div>
@@ -311,7 +316,7 @@
   <!-- Подвал -->
   <footer>
     <div class="container flexbox">
-      <section class="section content-box"> 
+      <div class="section content-box"> 
       <a href="./index.html" class="logow"><span class="logob">Web</span>Studio</a>
 
       <ul class="contacts">
@@ -325,8 +330,8 @@
           <p class="link-contacts">+38 099 111 11 11</p>
         </li>
       </ul>
-    </section>
-     <section class="section content-box">
+    </div>
+     <div class="section content-box">
       <p class="join">  присоединяйтесь</p>
       <ul class="list social-icons">
         <li class="social-icons-item"> 
@@ -358,8 +363,8 @@
           </a>
         </li>
       </ul>
-      </section>
-      <section class="section content-box">
+    </div>
+      <div class="section content-box">
         <p class="join"> Подпишитесь на рассылку</p>
         <form class="footer-form">
           <label>
@@ -371,9 +376,12 @@
             </svg>
           </button>
         </form>
-      </section>
+      </div>
     </div>
   </footer>
+
+  <!--Модальное окно-->
+
   <div class="backdrop is-hidden " data-modal> 
     <div class="modal" >
       <button class="btn-close" data-modal-close>
