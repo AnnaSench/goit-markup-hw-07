@@ -3,13 +3,17 @@
     background-color: #2f303a;
     letter-spacing: 0.06em;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image:  linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),
      url(../images/bk-img.jpg);
       max-width: 1600px;
+      height: 600px;
     background-size: cover;
     margin: auto;
+    background-position: center;
     
 
      h1 {

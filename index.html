@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"> 
-<link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 
 <link rel="stylesheet" href="./css/main.min.css">
@@ -396,7 +396,7 @@
         <div class="modal-wrap">
           <label for="name" class="modal-field">Имя</label>
           <div class="input-wrap">
-            <input type="text" class="modal-input" name="name" id="name" />
+            <input type="text" class="modal-input" name="name" id="name" autofocus  required minlength="2" placeholder=" "/>
             <svg class="form-icon" width="12px" height="12px">
               <use href="./images/sprite3.svg#icon-idmen"></use>
             </svg>
@@ -404,7 +404,7 @@
 
           <label for="tel" class="modal-field">Телефон</label>
           <div class="input-wrap">
-            <input type="tel" class="modal-input" name="tel" id="tel" />
+            <input type="tel" class="modal-input" name="tel" id="tel" required placeholder=" "/>
             <svg class="form-icon" width="13px" height="13px">
               <use href="./images/sprite3.svg#icon-phone"></use>
             </svg>
@@ -412,7 +412,7 @@
 
           <label for="mail" class="modal-field">Почта</label>
           <div class="input-wrap">
-            <input type="email" class="modal-input" name="mail" id="mail" />
+            <input type="email" class="modal-input" name="mail" id="mail" required placeholder=" "/>
             <svg class="form-icon" width="15px" height="12px">
               <use href="./images/sprite3.svg#icon-email"></use>
             </svg>

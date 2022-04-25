@@ -33,9 +33,11 @@
     &:hover,
     &:focus {
       border-color:  var(--hover-button-color);
-      outline-color: var(--hover-button-color);
-    }
+      outline-color: var(--hover-button-color);}
     
+    &:not(:placeholder-shown):required:valid{
+      border: var(--hover-button-color);
+      outline-color: var(--hover-button-color);}
   }
   
  
@@ -121,6 +123,7 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    text-indent: 7px;
   }
   
   
