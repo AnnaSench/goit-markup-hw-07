@@ -1,51 +1,46 @@
-.client{
+.client {
+  text-align: center;
+  padding-bottom: 94px;
+  padding-top: 94px;
+
+  h2 {
     text-align: center;
-    padding-bottom: 94px;
-    padding-top: 94px;
-
-     h2{
-      text-align: center;
-      font-size: 36px;
-      line-height: 1.17;
-      margin-bottom: 50px;
-    }
-   }
-
-  
-  .client-list{
-    display: flex;
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 50px;
   }
-  
-  .client-icons-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
-    height: 92px;
-    border: 1px solid var(--icon-color);
-    box-sizing: border-box;
-    border-radius: 4px;
-    
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    &:hover,
-    &:focus{
+.client-list {
+  display: flex;
+}
+
+.client-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
     border-color: var(--hover-nav-color);
-    
   }
-  }
-  .client-icons-link .icon{
-    
-    fill: var(--icon-color);
-    
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .client-icons-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  
-  .client-icons-link:hover .icon,
-  .client-icons-link:focus .icon{
-    fill: var(--hover-nav-color);
-    
-  }
+}
+.client-icons-link .icon {
+  fill: var(--icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client-icons-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client-icons-link:hover .icon,
+.client-icons-link:focus .icon {
+  fill: var(--hover-nav-color);
+}

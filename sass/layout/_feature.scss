@@ -22,7 +22,7 @@
 .feature-list {
   display: flex;
 
-  .item {
+  .feature-list__item {
     width: 270px;
 
     &:not(:last-child) {

@@ -1,32 +1,30 @@
 .hero {
-    color: #ffffff;
-    background-color: #2f303a;
-    letter-spacing: 0.06em;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image:  linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),
-     url(../images/bk-img.jpg);
-      max-width: 1600px;
-      height: 600px;
-    background-size: cover;
-    margin: auto;
-    background-position: center;
-    
+  color: #ffffff;
+  background-color: #2f303a;
+  letter-spacing: 0.06em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bk-img.jpg);
+  max-width: 1600px;
+  height: 600px;
+  background-size: cover;
+  margin: auto;
+  background-position: center;
 
-     h1 {
-      margin-bottom: 30px;
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: 900;
-      font-size: 44px;
-      line-height: 1.36;
-    }
+  h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
   }
-  
-  
-  
- 
-  
+}

@@ -27,15 +27,25 @@ h3 {
 button {
   font-family: inherit;
 }
-
+*/
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
-*/
+
 body {
   color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-family: "Roboto", sans-serif;
+}
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.link {
+  text-decoration: none;
 }
